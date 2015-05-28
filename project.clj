@@ -21,7 +21,8 @@
                  [org.clojure/tools.nrepl "0.2.10"]
                  [ragtime "0.3.8"]
                  [yesql "0.5.0-rc1"]
-                 [org.postgresql/postgresql "9.4-1201-jdbc41"]]
+                 [org.postgresql/postgresql "9.4-1201-jdbc41"]
+                 [org.clojure/data.json "0.2.6"]]
 
   :min-lein-version "2.0.0"
   :uberjar-name "smio-fb.jar"
