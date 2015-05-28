@@ -41,6 +41,7 @@
 
 
   :ring {:handler smio-fb.handler/app
+         :port 3001 ;; avoid conflict with rails
          :init    smio-fb.handler/init
          :destroy smio-fb.handler/destroy
          :uberwar-name "smio-fb.war"}

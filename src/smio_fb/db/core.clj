@@ -4,8 +4,8 @@
 
 (def db-spec
   {:subprotocol "postgresql"
-   :subname "//localhost/smio_fb"
-   :user "db_user_name_here"
-   :password "db_user_password_here"})
+   :subname "//localhost/smio_fb_dev"
+   :user "sam"
+   :password ""})
 
 (defqueries "sql/queries.sql" {:connection db-spec})
